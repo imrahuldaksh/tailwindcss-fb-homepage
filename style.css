@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* To create reusable class */
+.input-field{
+    @apply px-4 h-12 my-3 border border-gray-200 rounded-lg outline-blue-400;
+}
+.btn-custom{
+    @apply text-white my-3 py-3 rounded-md font-bold cursor-pointer;
+}
